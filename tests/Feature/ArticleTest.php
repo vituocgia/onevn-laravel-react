@@ -131,9 +131,9 @@ class ArticleTest extends TestCase
     private function createAdminUser()
     {
         return User::create([
-            'name' => 'Moeen Basra',
-            'email' => 'm.basra@live.com',
-            'password' => bcrypt('secret'),
+            'name' => 'Daniel Do',
+            'email' => 'dotiendiep@gmail.com',
+            'password' => bcrypt('asecret'),
             'is_admin' => true,
             'remember_token' => str_random(10),
         ]);
